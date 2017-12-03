@@ -9,6 +9,39 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ACREditingExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ACRShared.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>953DB3141FD3974600B01216</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>953DB3261FD3974600B01216</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>953DB3311FD3974600B01216</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>953DB3471FD3978500B01216</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

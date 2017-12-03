@@ -13,6 +13,25 @@
 		953DB3201FD3974600B01216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953DB31E1FD3974600B01216 /* Main.storyboard */; };
 		953DB32C1FD3974600B01216 /* ACRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DB32B1FD3974600B01216 /* ACRTests.swift */; };
 		953DB3371FD3974600B01216 /* ACRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DB3361FD3974600B01216 /* ACRUITests.swift */; };
+		953DB34B1FD3978500B01216 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953DB34A1FD3978500B01216 /* PhotosUI.framework */; };
+		953DB34D1FD3978500B01216 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953DB34C1FD3978500B01216 /* Photos.framework */; };
+		953DB3501FD3978500B01216 /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DB34F1FD3978500B01216 /* PhotoEditingViewController.swift */; };
+		953DB3531FD3978500B01216 /* PhotoEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953DB3511FD3978500B01216 /* PhotoEditingViewController.xib */; };
+		953DB3581FD3978500B01216 /* ACREditingExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 953DB3481FD3978500B01216 /* ACREditingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		953DB41A1FD3A22A00B01216 /* ACRShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953DB4111FD3A22A00B01216 /* ACRShared.framework */; };
+		953DB4211FD3A22A00B01216 /* ACRSharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DB4201FD3A22A00B01216 /* ACRSharedTests.swift */; };
+		953DB4231FD3A22A00B01216 /* ACRShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 953DB4131FD3A22A00B01216 /* ACRShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953DB4261FD3A22A00B01216 /* ACRShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953DB4111FD3A22A00B01216 /* ACRShared.framework */; };
+		953DB4271FD3A22A00B01216 /* ACRShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 953DB4111FD3A22A00B01216 /* ACRShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		953DB4301FD3A23A00B01216 /* Int32Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DB42E1FD3A23900B01216 /* Int32Extension.swift */; };
+		953DB4311FD3A23A00B01216 /* PSConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DB42F1FD3A23900B01216 /* PSConnection.swift */; };
+		953DB43B1FD3A2F100B01216 /* PSCryptorAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 953DB4351FD3A2F100B01216 /* PSCryptorAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953DB43C1FD3A2F100B01216 /* PBKeyDerive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953DB4361FD3A2F100B01216 /* PBKeyDerive.cpp */; };
+		953DB43D1FD3A2F100B01216 /* PSCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 953DB4371FD3A2F100B01216 /* PSCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953DB43E1FD3A2F100B01216 /* PSCryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953DB4381FD3A2F100B01216 /* PSCryptor.cpp */; };
+		953DB43F1FD3A2F100B01216 /* PSCryptorAPI-Wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 953DB4391FD3A2F100B01216 /* PSCryptorAPI-Wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953DB4401FD3A2F100B01216 /* PSCryptorAPI-Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 953DB43A1FD3A2F100B01216 /* PSCryptorAPI-Wrapper.m */; };
+		953DB4411FD3A9C200B01216 /* ACRShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953DB4111FD3A22A00B01216 /* ACRShared.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +49,60 @@
 			remoteGlobalIDString = 953DB3141FD3974600B01216;
 			remoteInfo = ACR;
 		};
+		953DB3561FD3978500B01216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953DB30D1FD3974600B01216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953DB3471FD3978500B01216;
+			remoteInfo = ACREditingExtension;
+		};
+		953DB41B1FD3A22A00B01216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953DB30D1FD3974600B01216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953DB4101FD3A22A00B01216;
+			remoteInfo = ACRShared;
+		};
+		953DB41D1FD3A22A00B01216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953DB30D1FD3974600B01216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953DB3141FD3974600B01216;
+			remoteInfo = ACR;
+		};
+		953DB4241FD3A22A00B01216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953DB30D1FD3974600B01216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953DB4101FD3A22A00B01216;
+			remoteInfo = ACRShared;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		953DB35C1FD3978600B01216 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				953DB3581FD3978500B01216 /* ACREditingExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB3AC1FD3991A00B01216 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				953DB4271FD3A22A00B01216 /* ACRShared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		953DB3151FD3974600B01216 /* ACR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACR.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +118,28 @@
 		953DB3321FD3974600B01216 /* ACRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		953DB3361FD3974600B01216 /* ACRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRUITests.swift; sourceTree = "<group>"; };
 		953DB3381FD3974600B01216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953DB3481FD3978500B01216 /* ACREditingExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ACREditingExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		953DB34A1FD3978500B01216 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		953DB34C1FD3978500B01216 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		953DB34F1FD3978500B01216 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
+		953DB3521FD3978500B01216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhotoEditingViewController.xib; sourceTree = "<group>"; };
+		953DB3541FD3978500B01216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953DB3551FD3978500B01216 /* ACREditingExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ACREditingExtension.entitlements; sourceTree = "<group>"; };
+		953DB3BD1FD399C200B01216 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		953DB4111FD3A22A00B01216 /* ACRShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACRShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953DB4131FD3A22A00B01216 /* ACRShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACRShared.h; sourceTree = "<group>"; };
+		953DB4141FD3A22A00B01216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953DB4191FD3A22A00B01216 /* ACRSharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRSharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953DB4201FD3A22A00B01216 /* ACRSharedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRSharedTests.swift; sourceTree = "<group>"; };
+		953DB4221FD3A22A00B01216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953DB42E1FD3A23900B01216 /* Int32Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int32Extension.swift; sourceTree = "<group>"; };
+		953DB42F1FD3A23900B01216 /* PSConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSConnection.swift; sourceTree = "<group>"; };
+		953DB4351FD3A2F100B01216 /* PSCryptorAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCryptorAPI.h; sourceTree = "<group>"; };
+		953DB4361FD3A2F100B01216 /* PBKeyDerive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PBKeyDerive.cpp; sourceTree = "<group>"; };
+		953DB4371FD3A2F100B01216 /* PSCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCryptor.h; sourceTree = "<group>"; };
+		953DB4381FD3A2F100B01216 /* PSCryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSCryptor.cpp; sourceTree = "<group>"; };
+		953DB4391FD3A2F100B01216 /* PSCryptorAPI-Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PSCryptorAPI-Wrapper.h"; sourceTree = "<group>"; };
+		953DB43A1FD3A2F100B01216 /* PSCryptorAPI-Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PSCryptorAPI-Wrapper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953DB4261FD3A22A00B01216 /* ACRShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +165,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		953DB3451FD3978500B01216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DB4411FD3A9C200B01216 /* ACRShared.framework in Frameworks */,
+				953DB34B1FD3978500B01216 /* PhotosUI.framework in Frameworks */,
+				953DB34D1FD3978500B01216 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB40D1FD3A22A00B01216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB4161FD3A22A00B01216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DB41A1FD3A22A00B01216 /* ACRShared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +199,10 @@
 				953DB3171FD3974600B01216 /* ACR */,
 				953DB32A1FD3974600B01216 /* ACRTests */,
 				953DB3351FD3974600B01216 /* ACRUITests */,
+				953DB34E1FD3978500B01216 /* ACREditingExtension */,
+				953DB4121FD3A22A00B01216 /* ACRShared */,
+				953DB41F1FD3A22A00B01216 /* ACRSharedTests */,
+				953DB3491FD3978500B01216 /* Frameworks */,
 				953DB3161FD3974600B01216 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +213,9 @@
 				953DB3151FD3974600B01216 /* ACR.app */,
 				953DB3271FD3974600B01216 /* ACRTests.xctest */,
 				953DB3321FD3974600B01216 /* ACRUITests.xctest */,
+				953DB3481FD3978500B01216 /* ACREditingExtension.appex */,
+				953DB4111FD3A22A00B01216 /* ACRShared.framework */,
+				953DB4191FD3A22A00B01216 /* ACRSharedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,7 +251,76 @@
 			path = ACRUITests;
 			sourceTree = "<group>";
 		};
+		953DB3491FD3978500B01216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				953DB3BD1FD399C200B01216 /* Security.framework */,
+				953DB34A1FD3978500B01216 /* PhotosUI.framework */,
+				953DB34C1FD3978500B01216 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		953DB34E1FD3978500B01216 /* ACREditingExtension */ = {
+			isa = PBXGroup;
+			children = (
+				953DB34F1FD3978500B01216 /* PhotoEditingViewController.swift */,
+				953DB3511FD3978500B01216 /* PhotoEditingViewController.xib */,
+				953DB3541FD3978500B01216 /* Info.plist */,
+				953DB3551FD3978500B01216 /* ACREditingExtension.entitlements */,
+			);
+			path = ACREditingExtension;
+			sourceTree = "<group>";
+		};
+		953DB4121FD3A22A00B01216 /* ACRShared */ = {
+			isa = PBXGroup;
+			children = (
+				953DB4341FD3A2C600B01216 /* PSCryptor */,
+				953DB42E1FD3A23900B01216 /* Int32Extension.swift */,
+				953DB42F1FD3A23900B01216 /* PSConnection.swift */,
+				953DB4131FD3A22A00B01216 /* ACRShared.h */,
+				953DB4141FD3A22A00B01216 /* Info.plist */,
+			);
+			path = ACRShared;
+			sourceTree = "<group>";
+		};
+		953DB41F1FD3A22A00B01216 /* ACRSharedTests */ = {
+			isa = PBXGroup;
+			children = (
+				953DB4201FD3A22A00B01216 /* ACRSharedTests.swift */,
+				953DB4221FD3A22A00B01216 /* Info.plist */,
+			);
+			path = ACRSharedTests;
+			sourceTree = "<group>";
+		};
+		953DB4341FD3A2C600B01216 /* PSCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				953DB4361FD3A2F100B01216 /* PBKeyDerive.cpp */,
+				953DB4381FD3A2F100B01216 /* PSCryptor.cpp */,
+				953DB4371FD3A2F100B01216 /* PSCryptor.h */,
+				953DB4391FD3A2F100B01216 /* PSCryptorAPI-Wrapper.h */,
+				953DB43A1FD3A2F100B01216 /* PSCryptorAPI-Wrapper.m */,
+				953DB4351FD3A2F100B01216 /* PSCryptorAPI.h */,
+			);
+			path = PSCryptor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		953DB40E1FD3A22A00B01216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DB43B1FD3A2F100B01216 /* PSCryptorAPI.h in Headers */,
+				953DB4231FD3A22A00B01216 /* ACRShared.h in Headers */,
+				953DB43F1FD3A2F100B01216 /* PSCryptorAPI-Wrapper.h in Headers */,
+				953DB43D1FD3A2F100B01216 /* PSCryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		953DB3141FD3974600B01216 /* ACR */ = {
@@ -134,10 +330,14 @@
 				953DB3111FD3974600B01216 /* Sources */,
 				953DB3121FD3974600B01216 /* Frameworks */,
 				953DB3131FD3974600B01216 /* Resources */,
+				953DB35C1FD3978600B01216 /* Embed App Extensions */,
+				953DB3AC1FD3991A00B01216 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				953DB3571FD3978500B01216 /* PBXTargetDependency */,
+				953DB4251FD3A22A00B01216 /* PBXTargetDependency */,
 			);
 			name = ACR;
 			productName = ACR;
@@ -180,6 +380,60 @@
 			productReference = 953DB3321FD3974600B01216 /* ACRUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		953DB3471FD3978500B01216 /* ACREditingExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953DB3591FD3978600B01216 /* Build configuration list for PBXNativeTarget "ACREditingExtension" */;
+			buildPhases = (
+				953DB3441FD3978500B01216 /* Sources */,
+				953DB3451FD3978500B01216 /* Frameworks */,
+				953DB3461FD3978500B01216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACREditingExtension;
+			productName = ACREditingExtension;
+			productReference = 953DB3481FD3978500B01216 /* ACREditingExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		953DB4101FD3A22A00B01216 /* ACRShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953DB4281FD3A22A00B01216 /* Build configuration list for PBXNativeTarget "ACRShared" */;
+			buildPhases = (
+				953DB40C1FD3A22A00B01216 /* Sources */,
+				953DB40D1FD3A22A00B01216 /* Frameworks */,
+				953DB40E1FD3A22A00B01216 /* Headers */,
+				953DB40F1FD3A22A00B01216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACRShared;
+			productName = ACRShared;
+			productReference = 953DB4111FD3A22A00B01216 /* ACRShared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		953DB4181FD3A22A00B01216 /* ACRSharedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953DB42B1FD3A22A00B01216 /* Build configuration list for PBXNativeTarget "ACRSharedTests" */;
+			buildPhases = (
+				953DB4151FD3A22A00B01216 /* Sources */,
+				953DB4161FD3A22A00B01216 /* Frameworks */,
+				953DB4171FD3A22A00B01216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953DB41C1FD3A22A00B01216 /* PBXTargetDependency */,
+				953DB41E1FD3A22A00B01216 /* PBXTargetDependency */,
+			);
+			name = ACRSharedTests;
+			productName = ACRSharedTests;
+			productReference = 953DB4191FD3A22A00B01216 /* ACRSharedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,6 +447,11 @@
 					953DB3141FD3974600B01216 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					953DB3261FD3974600B01216 = {
 						CreatedOnToolsVersion = 9.1;
@@ -200,6 +459,25 @@
 						TestTargetID = 953DB3141FD3974600B01216;
 					};
 					953DB3311FD3974600B01216 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 953DB3141FD3974600B01216;
+					};
+					953DB3471FD3978500B01216 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					953DB4101FD3A22A00B01216 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					953DB4181FD3A22A00B01216 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 953DB3141FD3974600B01216;
@@ -222,6 +500,9 @@
 				953DB3141FD3974600B01216 /* ACR */,
 				953DB3261FD3974600B01216 /* ACRTests */,
 				953DB3311FD3974600B01216 /* ACRUITests */,
+				953DB3471FD3978500B01216 /* ACREditingExtension */,
+				953DB4101FD3A22A00B01216 /* ACRShared */,
+				953DB4181FD3A22A00B01216 /* ACRSharedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +525,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		953DB3301FD3974600B01216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB3461FD3978500B01216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DB3531FD3978500B01216 /* PhotoEditingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB40F1FD3A22A00B01216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB4171FD3A22A00B01216 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,6 +581,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		953DB3441FD3978500B01216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DB3501FD3978500B01216 /* PhotoEditingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB40C1FD3A22A00B01216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DB4401FD3A2F100B01216 /* PSCryptorAPI-Wrapper.m in Sources */,
+				953DB43E1FD3A2F100B01216 /* PSCryptor.cpp in Sources */,
+				953DB4311FD3A23A00B01216 /* PSConnection.swift in Sources */,
+				953DB4301FD3A23A00B01216 /* Int32Extension.swift in Sources */,
+				953DB43C1FD3A2F100B01216 /* PBKeyDerive.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953DB4151FD3A22A00B01216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DB4211FD3A22A00B01216 /* ACRSharedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +622,26 @@
 			target = 953DB3141FD3974600B01216 /* ACR */;
 			targetProxy = 953DB3331FD3974600B01216 /* PBXContainerItemProxy */;
 		};
+		953DB3571FD3978500B01216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953DB3471FD3978500B01216 /* ACREditingExtension */;
+			targetProxy = 953DB3561FD3978500B01216 /* PBXContainerItemProxy */;
+		};
+		953DB41C1FD3A22A00B01216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953DB4101FD3A22A00B01216 /* ACRShared */;
+			targetProxy = 953DB41B1FD3A22A00B01216 /* PBXContainerItemProxy */;
+		};
+		953DB41E1FD3A22A00B01216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953DB3141FD3974600B01216 /* ACR */;
+			targetProxy = 953DB41D1FD3A22A00B01216 /* PBXContainerItemProxy */;
+		};
+		953DB4251FD3A22A00B01216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953DB4101FD3A22A00B01216 /* ACRShared */;
+			targetProxy = 953DB4241FD3A22A00B01216 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -300,6 +651,14 @@
 				953DB31F1FD3974600B01216 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953DB3511FD3978500B01216 /* PhotoEditingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953DB3521FD3978500B01216 /* Base */,
+			);
+			name = PhotoEditingViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,6 +773,7 @@
 		953DB33C1FD3974600B01216 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ACR/ACR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +790,7 @@
 		953DB33D1FD3974600B01216 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ACR/ACR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +870,123 @@
 			};
 			name = Release;
 		};
+		953DB35A1FD3978600B01216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ACREditingExtension/ACREditingExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 469XEEBJ9N;
+				INFOPLIST_FILE = ACREditingExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhexianlee.ACR.ACREditingExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		953DB35B1FD3978600B01216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ACREditingExtension/ACREditingExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 469XEEBJ9N;
+				INFOPLIST_FILE = ACREditingExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhexianlee.ACR.ACREditingExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		953DB4291FD3A22A00B01216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 469XEEBJ9N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ACRShared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhexianlee.ACRShared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		953DB42A1FD3A22A00B01216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 469XEEBJ9N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ACRShared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhexianlee.ACRShared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		953DB42C1FD3A22A00B01216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 469XEEBJ9N;
+				INFOPLIST_FILE = ACRSharedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhexianlee.ACRSharedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACR.app/Contents/MacOS/ACR";
+			};
+			name = Debug;
+		};
+		953DB42D1FD3A22A00B01216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 469XEEBJ9N;
+				INFOPLIST_FILE = ACRSharedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhexianlee.ACRSharedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACR.app/Contents/MacOS/ACR";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,6 +1022,33 @@
 			buildConfigurations = (
 				953DB3421FD3974600B01216 /* Debug */,
 				953DB3431FD3974600B01216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953DB3591FD3978600B01216 /* Build configuration list for PBXNativeTarget "ACREditingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953DB35A1FD3978600B01216 /* Debug */,
+				953DB35B1FD3978600B01216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953DB4281FD3A22A00B01216 /* Build configuration list for PBXNativeTarget "ACRShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953DB4291FD3A22A00B01216 /* Debug */,
+				953DB42A1FD3A22A00B01216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953DB42B1FD3A22A00B01216 /* Build configuration list for PBXNativeTarget "ACRSharedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953DB42C1FD3A22A00B01216 /* Debug */,
+				953DB42D1FD3A22A00B01216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
